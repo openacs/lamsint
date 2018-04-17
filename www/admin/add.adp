@@ -225,7 +225,7 @@
 		      document.getElementById("refresh").disabled = false;
 			if (req.status == 200) { // OK response
 		        var res = req.responseText.replace(/^\s*|\s*$/g,""); //get trimed result
-		        var seqlistStr = res.split(':'); //seperate each set of {sid, workspace,sequence}
+		        var seqlistStr = res.split(':'); //separate each set of {sid, workspace,sequence}
 		        var seqlist = new Array();
 		            
 		        var workspaceList = new Object();

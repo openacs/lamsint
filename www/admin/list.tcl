@@ -1,9 +1,9 @@
 # packages/lamsint/www/list.tcl
 
 ad_page_contract {
-    
-    send LAMS learning deisgn list as a string seperated by ":" to client
-    
+
+    send LAMS learning deisgn list as a string separated by ":" to client
+
     @author Ernie Ghiglione (ErnieG@melcoe.mq.edu.au)
     @creation-date 2005-11-23
     @arch-tag: 795e8952-ce5b-4d13-9129-17e3e8ce8174
